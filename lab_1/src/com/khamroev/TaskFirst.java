@@ -10,7 +10,7 @@ public class TaskFirst {
         double bot = 1+Math.pow(x,2)*Math.pow(y,2);
         bot = 2*x/bot;
         bot = 2+Math.abs(x-bot);
-        return top/bot + 2;
+        return top/bot + x;
     }
 
     public boolean L1T2(int xTemp, int yTemp){
